@@ -1,32 +1,31 @@
 {
-    "name": "yasserbelhimer/laravel-yalidine-dz-api",
+    "name": "laravel-yalidine-dz-api",
     "description": "Yalidine API",
     "license": "MIT",
     "authors": [
         {
-            "name": "yasser belhimer",
-            "email": "yasserbelhimer@gmail.com"
+            "name": "origin : yasser belhimer / Edited : HADJ RAMDANE SAID",
+            "email": "yasserbelhimer@gmail.com / saidhr20@gmail.com"
         }
     ],
     "require": {
-        "php": "^7.3|^8.0",
-        "guzzlehttp/guzzle": "^7.0",
-        "illuminate/contracts": "^8.0"
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.2",
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
-        "phpunit/phpunit": "^9.3"
+        "phpunit/phpunit": "^9.5.10"
     },
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Yasser\\Yalidine\\": "src",
-            "Yasser\\Yalidine\\Classes\\": "src/Classes"
+            "said20hr\\Yalidine\\": "src",
+            "said20hr\\Yalidine\\Classes\\": "src/Classes"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Yasser\\Yalidine\\Tests\\": "tests"
+            "said20hr\\Yalidine\\Tests\\": "tests"
         }
     },
     "config": {
