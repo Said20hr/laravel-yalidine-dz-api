@@ -5,7 +5,7 @@ Simple laravel package to use Yalidine dz API
 This package allows you to consume Yalidine dz Api using laravel.
 
 ```cli
-composer require yasserbelhimer/laravel-yalidine-dz-api
+composer require said20hr/laravel-yalidine-dz-api
 ```
 First at all generate your api and token in yalidine website https://www.yalidine.com/
 
