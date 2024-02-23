@@ -1,5 +1,5 @@
 {
-    "name": "laravel-yalidine-dz-api",
+    "name": "said20hr/laravel-yalidine-dz-api",
     "description": "Yalidine API",
     "license": "MIT",
     "authors": [
@@ -19,13 +19,13 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "said20hr\\Yalidine\\": "src",
-            "said20hr\\Yalidine\\Classes\\": "src/Classes"
+            "Said20hr\\Yalidine\\": "src/",
+            "Said20hr\\Yalidine\\Classes\\": "src/Classes"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "said20hr\\Yalidine\\Tests\\": "tests"
+            "Said20hr\\Yalidine\\Tests\\": "tests"
         }
     },
     "config": {
